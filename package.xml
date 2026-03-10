@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>multi_robot_scheduler</name>
+  <version>0.1.0</version>
+  <description>多机器人任务调度系统 - 基于 ROS2 + Nav2 + Gazebo</description>
+  <maintainer email="xiaowj2002@163.com">肖文杰</maintainer>
+  <license>MIT</license>
+
+  <!-- ROS2 核心 -->
+  <exec_depend>rclpy</exec_depend>
+
+  <!-- 话题消息类型 -->
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+
+  <!-- Nav2 导航动作接口（机器人节点调用导航用） -->
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>nav2_simple_commander</exec_depend>
+
+  <!-- TF 坐标变换（获取机器人实时位置用） -->
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>tf2_geometry_msgs</exec_depend>
+
+  <!-- Launch 文件依赖 -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
