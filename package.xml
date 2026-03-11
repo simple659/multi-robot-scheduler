@@ -3,7 +3,7 @@
   <name>multi_robot_scheduler</name>
   <version>0.1.0</version>
   <description>多机器人任务调度系统 - 基于 ROS2 + Nav2 + Gazebo</description>
-  <maintainer email="xiaowj2002@163.com">肖文杰</maintainer>
+  <maintainer email="xiaowj2002@163.com">simple659</maintainer>
   <license>MIT</license>
 
   <!-- ROS2 核心 -->
